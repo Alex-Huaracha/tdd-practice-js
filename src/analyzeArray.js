@@ -1,5 +1,4 @@
 export default function analyzeArray(arr) {
-  // implement: returns { average, min, max, length }
   const length = arr.length;
   if (length === 0) {
     return { average: 0, min: null, max: null, length: 0 };
